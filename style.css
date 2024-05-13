@@ -15,7 +15,7 @@ nav ul {
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 nav ul li {
@@ -37,5 +37,7 @@ nav ul li a.active {
 }
 
 .content {
+    max-width: 1000px;
+    margin: 0 auto;
     padding: 20px;
 }
