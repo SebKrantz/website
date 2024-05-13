@@ -41,3 +41,16 @@ nav ul li a.active {
     margin: 0 auto;
     padding: 20px;
 }
+
+footer {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+footer p {
+    color: #888;
+    font-size: 14px;
+    margin: 0;
+}
