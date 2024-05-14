@@ -5,6 +5,44 @@ body {
     background-color: white;
 }
 
+/* General styling for links and headers */
+
+a {
+    color: #007c91;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #005c6a;
+}
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    color: #333;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+h2::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #ccc;
+    margin-top: 5px;
+}
+
+/* Navigation bar */
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -12,15 +50,6 @@ body {
     max-width: 1000px;
     margin: 0 auto;
     padding: 0px;
-}
-
-.name {
-    color: white;
-    text-decoration: none;
-    font-size: 21px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 300;
-    margin-left: 24px;
 }
 
 nav {
@@ -43,9 +72,14 @@ nav ul li {
     display: inline-block;
 }
 
-nav ul li a {
+nav a {
     color: white;
-    text-decoration: none;
+}
+nav a:hover {
+    color: white;
+}
+
+nav ul li a {
     padding: 13px 20px;
     display: block; 
 }
@@ -58,12 +92,23 @@ nav ul li a.active {
     background-color: #444;
 }
 
+.name {
+    color: white;
+    text-decoration: none;
+    font-size: 21px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    /* margin-left: 24px; */
+}
+
 .menu-icon {
     display: none;
 }
 #menu-toggle {
     display: none;
 }
+
+/* Content and Footer */ 
 
 .content {
     max-width: 1000px;
@@ -86,7 +131,9 @@ footer p {
     margin: 0;
 }
 
+
 /* Index page profile */
+
 
 .profile {
     display: flex;
@@ -122,6 +169,46 @@ footer p {
 .profile-info p {
     font-size: 18px;
     line-height: 1.6;
+}
+
+
+/* Research Page */
+
+.article {
+    margin-bottom: 30px;
+}
+
+.article h3 {
+    color: #111;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.venue {
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.abstract {
+    margin-bottom: 10px;
+}
+
+.links {
+    margin-bottom: 10px;
+}
+
+.with-picture {
+    display: flex;
+    align-items: flex-start;
+}
+
+.with-picture img {
+    width: 200px;
+    margin-right: 20px;
+}
+
+.article-content {
+    flex: 1;
 }
 
 /* Mobile firendliness */
