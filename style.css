@@ -5,9 +5,27 @@ body {
     background-color: white;
 }
 
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0px;
+}
+
+.name {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
 nav {
-    background-color: #333;
-    padding: 10px;
+    background-color: #222;
+    margin: 0;
+    padding: 13px; 
 }
 
 nav ul {
@@ -15,7 +33,7 @@ nav ul {
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
 }
 
 nav ul li {
@@ -25,15 +43,22 @@ nav ul li {
 nav ul li a {
     color: white;
     text-decoration: none;
-    padding: 10px 30px;
+    padding: 13px 20px;
 }
 
 nav ul li a:hover {
-    background-color: #555;
+    background-color: #444;
 }
 
 nav ul li a.active {
-    background-color: #555;
+    background-color: #444;
+}
+
+.menu-icon {
+    display: none;
+}
+#menu-toggle {
+    display: none;
 }
 
 .content {
@@ -53,4 +78,89 @@ footer p {
     color: #888;
     font-size: 14px;
     margin: 0;
+}
+
+/* Index page profile */
+
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 80px;
+    margin-bottom: 70px;
+}
+
+.profile-picture {
+    flex: 1;
+    text-align: center;
+    padding-right: 20px;
+}
+
+.profile-picture img {
+    max-width: 300px;
+    height: auto;
+    /* border-radius: 50%; */
+}
+
+.profile-info {
+    flex: 1;
+}
+
+.profile-info h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+.profile-info p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Mobile firendliness */
+
+@media screen and (max-width: 800px) {
+    nav ul {
+        display: none;
+        flex-direction: column;
+        background-color: #333;
+        position: absolute;
+        top: 100%;
+        right: 0;
+        width: 200px;
+        padding: 10px;
+    }
+
+    nav ul li {
+        margin-bottom: 10px;
+    }
+
+    nav ul li a {
+        display: block;
+    }
+
+    .menu-icon {
+        display: block;
+        color: white;
+        font-size: 24px;
+        cursor: pointer;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+
+    #menu-toggle {
+        display: none;
+    }
+
+    #menu-toggle:checked ~ ul {
+        display: flex;
+    }
+
+    nav ul li:first-child {
+        position: absolute;
+        left: 10px;
+        top: 10px;
+    }
 }
