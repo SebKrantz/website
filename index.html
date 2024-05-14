@@ -4,26 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
     <title>My Personal Website</title>
 </head>
 <body>
     <nav>
-        <ul>
-            <li><a href="index.html" class="active"><b>Sebastian Krantz</b></a></li>
-            <li><a href="research.html">Research</a></li>
-            <li><a href="data-products.html">Data Products</a></li>
-            <li><a href="software.html">Software</a></li>
-            <li><a href="personal.html">Personal</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
+        <div class="navbar">
+            <a href="index.html" class="name">Sebastian Krantz</a>
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="menu-icon">&#9776;</label>
+            <ul>
+                <!-- <li><a href="index.html" class="active"><b>Sebastian Krantz</b></a></li> -->
+                <li><a href="research.html">Research</a></li>
+                <li><a href="data-products.html">Data Products</a></li>
+                <li><a href="software.html">Software</a></li>
+                <li><a href="personal.html">Personal</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
     </nav>
 
     <div class="content">
-        <h1>Welcome to My Personal Website</h1>
-        <p>This is the home page.</p>
+        <div class="profile">
+            <div class="profile-picture">
+                <img src="www/Sebastian_Krantz_2024.png" alt="My Profile Picture">
+            </div>
+            <div class="profile-info">
+                <h1>Sebastian Krantz</h1>
+                <p>I am a PhD Student in Quantitative Economics at the Kiel Institute for the World Economy, where I am part of the Research Center International Development and the Kiel Institute Africa Initiative.</p>
+                <p>I attempt to conduct quantitative research on Africa's economic transformation using novel methods and data sources, focusing on Optimal Infrastructure Investments (spatial allocation problems), Regional and Global Value Chains, and Macroeconomic Stability and Resilience.</p>
+                <p>I am also an active open source contributor, developing high-performance statistical libraries for R and Julia.</p>
+            </div>
+        </div>
     </div>
     <footer>
-        <p>&copy; My Name 2024</p>
+        <p>&copy; Sebastian Krantz 2024</p>
     </footer>
 </body>
 </html>
