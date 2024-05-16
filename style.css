@@ -41,6 +41,24 @@ h2::after {
     margin-top: 5px;
 }
 
+
+ul.itemize {
+    width: 90%; /* Ensures the UL takes full width */
+}
+
+ul.itemize li {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: 5px; /* Adds space for the bullet outside the text block */
+    padding-left: 5px; /* Adds space between the bullet and the text */
+}
+
+ul.itemize li::marker {
+    color: #333;
+    /* font-size: 20pt;
+        vertical-align: bottom; */ 
+}
+
 /* Navigation bar */
 
 .navbar {
@@ -181,12 +199,19 @@ footer p {
 .article h3 {
     color: #111;
     font-size: 20px;
-    margin-bottom: 5px;
+    margin-bottom: 0px; /* 5px; */
+}
+
+.with-picture h3 {
+    color: #111;
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px; /* 5px; */
 }
 
 .venue {
     font-style: italic;
-    margin-bottom: 10px;
+    margin-bottom: 5px; /* 10px; */
 }
 
 .abstract {
@@ -209,6 +234,34 @@ footer p {
 
 .article-content {
     flex: 1;
+}
+
+/* Software Page */
+
+.software-name {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.software-description {
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+
+.badges {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.badges img {
+    margin-right: 5px;
+    height: 1.3em;
+    width: auto;
+    vertical-align: middle;
 }
 
 /* Mobile firendliness */
