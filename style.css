@@ -98,7 +98,7 @@ nav a:hover {
 }
 
 nav ul li a {
-    padding: 13px 20px;
+    padding: 15px 20px;
     display: block; 
 }
 
@@ -272,7 +272,7 @@ footer p {
     }
 
     .name {
-        padding: 8px;
+        padding: 10px;
     }
 
     nav ul {
