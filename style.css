@@ -71,7 +71,7 @@ ul.itemize li::marker {
 }
 
 nav {
-    background-color: #222;
+    background-color: #1f1f21; /* #222; */
 }
 
 nav ul {
@@ -189,6 +189,33 @@ footer p {
     line-height: 1.6;
 }
 
+/* Social Icons */
+
+.social-icons {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.social-icons a {
+    display: inline-block;
+    color: #1f1f21; /* #222; */
+    margin: 0 15px;
+}
+
+.social-icons svg {
+    width: auto;
+    height: 32px;
+    vertical-align: middle;
+}
+
+.social-icons a:hover {
+   color: #444;
+}
+
+#social-contact {
+    text-align: left;
+}
 
 /* Research Page */
 
@@ -262,6 +289,14 @@ footer p {
     height: 1.3em;
     width: auto;
     vertical-align: middle;
+}
+
+/* Contact Page */
+
+#institute-logo {
+    height: 80px;
+    width: auto;
+    margin-top: -10px;
 }
 
 /* Mobile firendliness */
