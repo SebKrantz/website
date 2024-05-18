@@ -259,6 +259,11 @@ footer p {
     margin-right: 20px;
 }
 
+/* linked pictures */
+.with-picture > a:hover {
+    opacity: 80%;
+}
+
 .article-content {
     flex: 1;
 }
