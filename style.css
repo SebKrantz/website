@@ -165,11 +165,11 @@ footer p {
     flex: 1;
     text-align: center;
     padding-right: 20px;
-    padding-top: 15px;
+    padding-top: 13px;
 }
 
 .profile-picture img {
-    max-width: 318px;
+    max-width: 320px;
     height: auto;
     /* border-radius: 50%; */
 }
