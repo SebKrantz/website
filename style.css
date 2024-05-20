@@ -348,3 +348,20 @@ footer p {
         display: flex;
     }
 }
+
+/* Handy */
+@media screen and (max-width: 600px) {
+    .profile {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+        margin-bottom: 40px;
+    }
+    .profile-picture {
+        margin-right: 0;
+        margin-bottom: 1cap;
+    }
+    .profile-info {
+        text-align: center;
+    }
+}
