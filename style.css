@@ -12,13 +12,17 @@ a {
     text-decoration: none;
 }
 
-.textlink {
+a.textlink {
     color: #00434f;
     text-decoration: none;
 }
 
 a:hover {
     color: #005c6a;
+}
+
+a.textlink:hover {
+    color: #007c91;
 }
 
 h1 {
