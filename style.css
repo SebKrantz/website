@@ -371,6 +371,7 @@ footer p {
         /* This is just needed for dropdown to be above the other content */ 
         position: absolute;
         top: 48.5px;
+        z-index: 1000; /* Ensure it's always above highlighted pictures */
         /* This is for the dropdown animation */ 
         visibility: hidden;
         max-height: 0px; /* initially zero height to have transition */
