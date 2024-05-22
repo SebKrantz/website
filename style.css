@@ -99,10 +99,7 @@ nav ul li {
     display: inline-block;
 }
 
-nav a {
-    color: white;
-}
-nav a:hover {
+nav a, nav a:hover {
     color: white;
 }
 
@@ -111,11 +108,7 @@ nav ul li a {
     display: block; 
 }
 
-nav ul li a:hover {
-    background-color: #444;
-}
-
-nav ul li a.active {
+nav ul li a:hover, nav ul li a.active {
     background-color: #444;
 }
 
@@ -383,7 +376,7 @@ footer p {
         max-height: 0px; /* initially zero height to have transition */
         transition: visibility 0s, max-height 0.2s ease-out;
     }
-    nav ul li a:hover {
+    nav ul li a:hover, nav ul li a.active {
         background-color: rgba(255, 255, 255, 0.3);
     }
 
