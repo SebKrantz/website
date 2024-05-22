@@ -371,20 +371,28 @@ footer p {
     }
 
     nav ul {
-        display: none;
+        display: flex;
         flex-direction: column;
-        background-color: #333;
+        background-color: #000000;
         width: 100%;
+        /* This is just needed for dropdown to be above the other content */ 
+        position: absolute;
+        top: 30px;
+        opacity: 70%; 
+        /* This is for the dropdown animation */ 
+        visibility: hidden;
+        max-height: 0px; /* initially zero height to have transition */
+        transition: visibility 0s, max-height 0.2s ease-out;
     }
 
     /* Show the menu icon on mobile */
     .navbar .menu-icon {
         display: inline-block; 
     }
-
     /*Now the action when it is clicked */
     #menu-toggle:checked ~ ul {
-        display: flex;
+        visibility: visible;
+        max-height: 400px;
     }
     #menu-toggle:checked ~ .menu-icon .navicon {
         background-color: transparent;
