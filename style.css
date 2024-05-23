@@ -295,10 +295,13 @@ footer p {
     align-items: flex-start; /* row; */
 }
 
-.with-picture img {
+.with-picture img, .with-picture > a {
     order: 1;
     width: 200px;
     margin-right: 20px;
+}
+.data-product img, .data-product > a {
+    width: 300px !important;
 }
 
 /* linked pictures */
@@ -436,13 +439,16 @@ footer p {
         /* align-items: center; */
     }
 
-    .with-picture img {
+    .with-picture img, .with-picture > a {
         order: 2;
-        width: 70%;
-        margin-right: 0;
-        margin-top: 10px;
-        margin-bottom: 15px;
+        margin-top: 2px;
+        margin-left: auto;
+        margin-right: auto;
     }
+    .data-product img, .data-product > a {
+        width: 100% !important;
+    }
+
 
     .with-picture .article-content {
         order: 1;
