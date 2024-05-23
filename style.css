@@ -380,7 +380,7 @@ footer p {
         transition: visibility 0s, max-height 0.2s ease-out;
     }
     nav ul li a:hover, nav ul li a.active {
-        background-color: rgba(255, 255, 255, 0.3);
+        background-color: rgba(255, 255, 255, 0.35);
     }
 
     /* Show the menu icon on mobile */
