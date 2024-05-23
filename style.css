@@ -448,12 +448,15 @@ footer p {
         width: 100% !important;
     }
 
-
     .with-picture .article-content {
         order: 1;
     }
 
     .abstract, .software-description {
         text-align: justify;
+    }
+
+    .social-icons a {
+        margin: 0 10px;
     }
 }
