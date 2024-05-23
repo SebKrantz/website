@@ -293,6 +293,7 @@ footer p {
 .with-picture {
     display: flex;
     align-items: flex-start; /* row; */
+    margin-top: 50px;
 }
 
 .with-picture img, .with-picture > a {
