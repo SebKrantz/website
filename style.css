@@ -425,8 +425,8 @@ footer p {
         margin-bottom: 40px;
     }
     .profile-picture {
-        margin-right: 0;
-        margin-bottom: 1cap;
+        padding: 0;
+        margin: 0 auto;
     }
     .profile-info {
         text-align: center;
