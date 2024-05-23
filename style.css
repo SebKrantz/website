@@ -112,7 +112,7 @@ nav ul li a:hover, nav ul li a.active {
     background-color: #444;
 }
 
-.name {
+.navbar a.name {
     color: white;
     text-decoration: none;
     font-size: 21px;
