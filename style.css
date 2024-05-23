@@ -358,10 +358,10 @@ footer p {
     .navbar {
         flex-wrap: wrap;
         padding: 0px;
+        height: 50px;
     }
-
     .name {
-        padding: 9.8px 20px;
+        padding: 0px 20px;
     }
 
     nav ul {
@@ -371,7 +371,7 @@ footer p {
         width: 100%;
         /* This is just needed for dropdown to be above the other content */ 
         position: absolute;
-        top: 48.5px;
+        top: 50px;
         z-index: 1000; /* Ensure it's always above highlighted pictures */
         /* This is for the dropdown animation */ 
         visibility: hidden;
