@@ -323,7 +323,7 @@ footer p {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     margin-top: 5px;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
 }
 
 .software-description {
@@ -333,14 +333,12 @@ footer p {
 
 
 .badges {
-    display: flex;
-    flex-wrap: wrap; 
-    margin-bottom: 10px;
-    align-items: left; 
+    display: inline-block;
+    margin-bottom: 6px;
 }
 
 .badges img {
-    margin-right: 5px;
+    margin: 2px 0px;
     height: 1.3em;
     width: auto;
     vertical-align: middle;
