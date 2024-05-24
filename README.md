@@ -3,7 +3,7 @@ This is my personal website. It is coded from scratch in plain HTML and CSS, usi
 
 ## Tips for Adaptation
 
-- Use SVG social icons. I got mine from [here](https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/). Open them and paste them into index.html and contact.html, and ensure that thex have a flag `fill="currentColor"` so that their color can be targeted by CSS if desired (i.e., by default set to dark grey and lighter grey on hover). 
+- Use SVG social icons. I got mine from [here](https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/). Open them and paste them into index.html and contact.html, and ensure that thex have a tag `fill="currentColor"` so that their color can be targeted by CSS if desired (by default set to very dark grey and lighter grey on hover). 
 
 ## Custom Domain with Namecheap.com + Hosting with Github Pages
 
