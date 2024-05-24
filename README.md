@@ -5,6 +5,8 @@ This is my personal website. It is coded from scratch in plain HTML and CSS, usi
 
 - Use SVG social icons. I got mine from [here](https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/). Open them and paste them into index.html and contact.html, and ensure that thex have a tag `fill="currentColor"` so that their color can be targeted by CSS if desired (by default set to very dark grey and lighter grey on hover). 
 
+- Use [realfavicongenerator.net](https://realfavicongenerator.net/) to generate your favicon (the mini-picture that appears in your browser tab). In *Favicon Generator Options* choose 'I cannot or I do not want to place favicon files at the root of my web site. Instead I will place them here' and enter www/icons. then, replace the icons in www/icons and replace all favicon-related code in the `<head>` tag of each HTML page.  
+
 ## Custom Domain with Namecheap.com + Hosting with Github Pages
 
 ### Step 1: Enable GitHub Pages
