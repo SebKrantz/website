@@ -377,6 +377,7 @@ footer p {
         /* This is for the dropdown animation */ 
         visibility: hidden;
         max-height: 0px; /* initially zero height to have transition */
+        overflow: hidden; /* Hide overflow to prevent content (li) from spilling out */
         transition: visibility 0s, max-height 0.2s ease-out;
     }
     nav ul li a:hover, nav ul li a.active {
