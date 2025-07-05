@@ -1,5 +1,5 @@
 # Personal Website
-This is my personal website. It is coded from scratch in plain HTML and CSS, using standard Arial and [Open Sans](https://fonts.google.com/specimen/Open+Sans) fonts. Feel free to reuse/adapt. To be clear: the core code is CC0 licensed, content relating to my person is private and not CC0. Thus, you can replace my copyright with yours ONLY after removing all of my content.
+This is my personal website. It is coded from scratch in HTML and CSS (and a tiny bit of JavaScript), using standard Arial and [Open Sans](https://fonts.google.com/specimen/Open+Sans) fonts. Feel free to reuse/adapt. To be clear: the core code is CC0 licensed, content relating to my person is private. Thus, you can replace my copyright with yours ONLY after removing all of my content.
 
 ## Tips for Adaptation
 
