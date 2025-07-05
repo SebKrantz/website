@@ -80,12 +80,18 @@ ul.itemize li::marker {
 }
 
 nav {
-    background-color: rgba(0, 0, 0, 0.87); /* #1f1f21;  #222; */
+    background-color: #1f1f21; /* rgba(0, 0, 0, 0.87); #222; */
     /* Delete the lines below if you want the navbar to disappear when scrolling */
     position: sticky;
     top: 0;
     z-index: 1000; /* Ensure it stays on top of other content */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow for better visibility */
+    transition: transform 0.3s ease-in-out; /* Add this for smooth animation: navbar disappears when scrolling down and reappears when scrolling up */
+}
+
+/* Add this new class to your CSS file: navbar disappears when scrolling down and reappears when scrolling up */
+.navbar--hidden {
+    transform: translateY(-100%);
 }
 
 nav ul {
