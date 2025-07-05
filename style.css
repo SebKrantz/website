@@ -80,7 +80,7 @@ ul.itemize li::marker {
 }
 
 nav {
-    background-color: #1f1f21; /* #222; */
+    background-color: rgba(0, 0, 0, 0.87); /* #1f1f21;  #222; */
     /* Delete the lines below if you want the navbar to disappear when scrolling */
     position: sticky;
     top: 0;
