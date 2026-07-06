@@ -37,11 +37,23 @@
     <div class="content">
 
         <h1>Data Products</h1>
-        
+
+        <div class="article with-picture data-product" id="transport-network-optimizer">
+            <a href="https://optimaltransportnetworksapp.fly.dev/" target="_blank"><img src="www/data-products/transport_network_optimizer.png" alt="Transport Network Optimizer Preview"></a>
+            <div class="article-content">
+                <h3>Transport Network Optimizer</h3>
+                <br>
+                <p class="software-description">The <i>Transport Network Optimizer</i> is a web application for computing welfare-maximizing transport networks on user-supplied graphs, implementing the quantitative spatial economic model of Fajgelbaum &amp; Schaal (2020, <i>Econometrica</i>). Given economic fundamentals &ndash; population, productivity, housing, and any pre-existing network &ndash; it solves for the optimal allocation of infrastructure investment across a graph, subject to a construction budget. Users upload nodes and edges as CSV files (or load an example network), configure model parameters, and run the optimization interactively, with live solver output streaming into a console. Results are displayed on an interactive map with configurable colour and size variables per layer. It is powered by the open-source <a href="https://github.com/SebKrantz/OptimalTransportNetworks.jl" target="_blank">OptimalTransportNetworks.jl</a> Julia package &ndash; a fast JuMP/Ipopt-based translation of the authors' original MATLAB toolbox.   </p>
+                <div class="links">
+                    <a href="https://optimaltransportnetworksapp.fly.dev/" target="_blank">Web-Application</a> | <a href="https://github.com/SebKrantz/OptimalTransportNetworks.jl" target="_blank">Julia Package</a> | <a href="https://github.com/OptimalTransportNetworks/OptimalTransportNetworksApp" target="_blank">App Source</a>
+                </div>
+            </div>
+        </div>
+
         <div class="article with-picture data-product" id="infra-risk-analyzer">
             <a href="https://datanalytics.worldbank.org/infra-risk-analyzer/" target="_blank"><img src="www/data-products/infra_risk_analyzer.png" alt="Infrastructure Risk Analyzer Preview"></a>
             <div class="article-content">
-                <h3>Infrastructure Risk Analyzer (Beta Version)</h3>
+                <h3>Infrastructure Risk Analyzer</h3>
                 <br>
                 <p class="software-description">The <i>Infrastructure Risk Analyzer</i> is a full-stack web application for automated climate and natural-hazard risk analysis of infrastructure assets. Users upload spatial datasets representing point or line infrastructure — such as roads, telecom towers or fiber networks — and analyze them against global hazard layers including floods, earthquakes, cyclones, and landslides. The tool classifies assets as affected or unaffected based on user-defined intensity thresholds and optionally estimates economic damage using uploaded vulnerability curves and replacement cost data. Results and high-resolution map and chart exports are available from the browser.   </p>
                 <div class="links">
